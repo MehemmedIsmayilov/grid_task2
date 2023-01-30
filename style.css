@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.438),rgba(0, 0, 255, 0.39),rgba(0, 128, 0, 0.377),rgba(255, 255, 255, 0.514),rgba(255, 166, 0, 0.37));
+}
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 300px;
+    
+}
+img{
+    width: 100%;
+    height: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 22px;
+    list-style: none;
+    align-items: center;
+    margin-right: 300px;
+    
+    text-shadow:0 0 1px rgb(119, 53, 53),0 0 2px red;
+    color: rgb(77, 77, 77);
+   
+}
+li:hover{
+    color: rgb(54, 0, 204);
+    transition: 0.5s;
+    border-bottom:15px solid  rgb(54, 0, 204);
+}
+
+.animation{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    margin-top: 250px;
+    border-radius: 0px 20px 20px 0px ;
+    background-color: rgb(98, 43, 226);
+    
+}
+
+.anima{
+    color: white;
+    margin: 20%;
+    font-size: 25px;
+    animation-name: example;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    0%   {transform: rotate(15600deg);}    
+  }
+
+.main{
+  display: flex;
+    width: 12000px;
+    height: 600px;
+    padding-top: 60px;
+    padding-left: 300px;
+    padding-top: 200px;
+    
+}
+.text_item{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+    width: 600px;
+    font-size: 18px;
+    column-gap: 40px;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+   
+}
+.text_items{
+    
+
+text-align: center;
+width: 300px;
+height: 220px;
+    
+}
+.show{
+    
+    
+  width: 600px;
+  height: 470px; 
+  margin-left: 130px; 
+  box-shadow: 0 0 40px rgb(255, 0, 0),0 0 10px rgb(0, 0, 0);
+   
+}
+.vach{
+    height: 470px;
+}
+
+.mainicon{
+    color: rgb(94, 94, 255);
+    font-size: 45px;
+    padding: 10px;
+    display: inline;
+    margin-right: 170px;
+    
+   
+}
+.iconn{
+   width: 100%;
+   margin-right: 200px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  
+}
+h3{
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px black;
+    
+}
+p{
+    padding: 10px;
+}
+
